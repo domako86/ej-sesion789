@@ -14,7 +14,7 @@
 	<name>ej-sesion789</name>
 	<description> API REST de Laptop</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
