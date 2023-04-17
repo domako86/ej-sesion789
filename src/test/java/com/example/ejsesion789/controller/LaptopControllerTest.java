@@ -46,7 +46,7 @@ class LaptopControllerTest {
 
     @Test
     void findOneById() {
-        ResponseEntity<Laptop> response = testRestTemplate.getForEntity("/api/laptops/1", Laptop.class);
+        ResponseEntity<Laptop> response = testRestTemplate.getForEntity("/api/laptops/3", Laptop.class);
         assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
     }
 
